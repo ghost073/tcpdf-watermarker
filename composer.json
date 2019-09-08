@@ -1,0 +1,21 @@
+{
+    "name": "youling073/tcpdf-watermarker",
+    "description": "php tcpdf加水印",
+    "type": "library",
+    "license": "MIT",
+    "authors" : [
+        {
+          "name": "youling073"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    	"php": ">=7.1.0",
+        "tecnickcom/tcpdf": "6.2.26"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"Youling073\\PDFWatermark\\": "src"
+    	}
+    }
+}
